@@ -1,0 +1,76 @@
+body {
+	background: #f1f1f1;
+	color: #444;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-size: 13px;
+	line-height: 1.4em;
+}
+
+.progress {
+	margin-bottom: 0;
+}
+
+.progress-bar {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+	width: 100%;
+}
+
+#vk-profile {
+	display: none;
+}
+
+.ui-slider {
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+a {
+	cursor: pointer;
+}
+
+/* style tooltips on handles and on labels */
+/* also has a nice transition */
+.ui-slider-float .ui-slider-tip,
+.ui-slider-float .ui-slider-tip-label {
+	height: 60px;
+	line-height: 18px;
+	margin-left: -35px;
+	padding: 3px 0;
+	top: -80px;
+	width: 70px;
+}
+
+/* show the tooltip on hover or focus */
+/* also switch transition delay around */
+.ui-slider-float .ui-slider-handle:hover .ui-slider-tip,
+.ui-slider-float .ui-slider-handle.ui-state-hover .ui-slider-tip,
+.ui-slider-float .ui-slider-handle:focus .ui-slider-tip,
+.ui-slider-float .ui-slider-handle.ui-state-focus .ui-slider-tip,
+.ui-slider-float .ui-slider-handle.ui-state-active .ui-slider-tip,
+.ui-slider-float .ui-slider-pip:hover .ui-slider-tip-label {
+	top: -70px;
+}
+
+.no-left-border {
+	border-left-width: 0;
+}
+
+.no-right-border {
+	border-right-width: 0;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+
+.m-b-20 {
+	margin-bottom: 20px;
+}
+
+.m-l-5 {
+	margin-left: 5px;
+}
